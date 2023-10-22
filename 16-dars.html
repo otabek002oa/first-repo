@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/server.php" method="get">
+        <label for="Username">Username</label>
+        <input type="text" name="Username" id="Username"> <br><br>
+
+        <label for="Password">Password</label>
+        <input type="password" name="Password" id="Password"> <br><br>
+
+        <label for="email">emaillingizni kriting</label>
+        <input type="email" name="" id="email"> <br><br>
+
+        <label for="sana">tug'ilgan kuningiz</label>
+        <input type="date" name="date" id="date"> <br><br>
+
+        <label for="student">talaba</label> 
+        <input type="checkbox" name="student" id="checkbox"> <br><br>
+
+        <hr>
+
+        <label for="erkak">erkak</label>
+        <input type="radio" name="gender" value="male">
+
+        <label for="ayol">ayol</label>
+        <input type="radio" name="gender" value="female" id=""> <br><br>
+        
+        <label for="passport">passport</label>
+        <input type="file" name="passport" id="passport"> <br><br>
+
+        <label for="tajriba">tajribangiz</label>
+        <select name="experience" id="tajriba">
+            <option value="0">tajribam yo'q</option>
+            <option value="1">1 yildan kam</option>
+            <option value="2">1 yildan 3 yil</option>
+        </select>
+        <br><br>
+        <label for="haqida">haqingizda</label> <br>
+        <textarea name="about" id="haqida" cols="30" rows="10"></textarea> <br> <br>
+        <button type="submit">Register</button>
+    </form>
+</body>
+</html>
